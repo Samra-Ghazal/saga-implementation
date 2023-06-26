@@ -1,0 +1,238 @@
+@import "../../../Assets/Scss/veriables.scss";
+@import "~react-pro-sidebar/dist/scss/styles.scss";
+
+.plexar_logo {
+    width: 15%;
+}
+
+.bottom_attach {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 15%;
+    bottom: 0;
+    position: absolute;
+}
+
+
+.button_width {
+    width: 100%;
+    font-size: 100%;
+    margin-top: 8%;
+    background-color: rgb(84, 141, 255);
+    border: 1px solid rgb(84, 141, 255);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 8px;
+}
+
+.text_valid {
+    color: green;
+    font-weight: 550;
+    font-size: 80%;
+}
+
+.text_invalid {
+    color: red;
+    font-weight: 550;
+    font-size: 80%;
+}
+
+.button_width_disabled {
+    width: 100%;
+    font-size: 100%;
+    margin-top: 8%;
+    background-color: rgb(151, 178, 237) !important;
+    border: 1px solid rgb(111, 154, 240);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 8px;
+    cursor: no-drop;
+}
+
+.font_label {
+    font-size: 75%;
+    color: gray;
+    font-weight: bold;
+}
+
+.PhoneInput {
+    background-color: #F4F6F7 !important;
+    padding-left: 4%;
+    border-radius: 5px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.PhoneInputInput:focus {
+    outline: none;
+}
+
+.color_font_one {
+    color: gray;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.login_button_style {
+    font-weight: bold;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 2%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.padding_top_bottom_equal {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.height_page {
+    height: 100vh;
+}
+
+.img_plexar_width {
+    width: 40%;
+
+}
+
+.background_plexar {
+    background-image: url(../../../../public/images/plexar/background.png);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.border_welcome_to_plexar {
+    border: 1px solid rgb(232, 232, 232);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    height: 80vh;
+}
+
+.alignment_vertically {
+    padding-top: 10%;
+}
+
+.plexar_font {
+    color: rgb(33, 118, 225);
+}
+
+.sub_heading {
+    font-size: 80%;
+    color: gray;
+}
+
+.sub_heading1 {
+    font-size: 90%;
+    color: black;
+    font-weight: bold;
+}
+
+.input_style button,
+input {
+    width: 43px !important;
+    height: 5vh;
+    background-color: #f4f6f7;
+    border: 1px solid #f4f6f7;
+    border-radius: 5px;
+    color: gray;
+    font-weight: bold;
+}
+
+.having_problrm {
+    color: gray;
+    font-size: 80%;
+}
+
+.resend_button {
+    font-size: 80%;
+    color: rgb(33, 118, 225);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.resend_button_disabled {
+    font-size: 80%;
+    color: rgb(100, 107, 117);
+    font-weight: bold;
+    cursor: no-drop;
+}
+
+.background_color_gray {
+    background-color: rgb(248, 250, 252);
+    border: 1px solid rgb(248, 250, 252);
+    outline: none;
+    box-shadow: none;
+    border-radius: 5px;
+    color: gray;
+    width: 100% !important;
+}
+
+.background_color_gray:hover {
+    background-color: rgb(248, 250, 252);
+    border: 1px solid rgb(248, 250, 252);
+    outline: none;
+    box-shadow: none;
+    border-radius: 5px;
+    color: gray;
+}
+
+.background_color_gray:focus {
+    background-color: rgb(248, 250, 252);
+    border: 1px solid rgb(248, 250, 252);
+    outline: none;
+    box-shadow: none;
+    border-radius: 5px;
+    color: gray;
+}
+
+.background_color_gray::placeholder {
+    font-size: 80%;
+    color: gray;
+}
+
+
+
+.background_color_gray1 {
+    background-color: rgb(248, 250, 252);
+    border: 1px solid rgb(248, 250, 252);
+    outline: none;
+    box-shadow: none;
+    border-radius: 5px;
+    color: gray;
+    width: auto;
+}
+
+.background_color_gray1:hover {
+    background-color: rgb(248, 250, 252);
+    border: 1px solid rgb(248, 250, 252);
+    outline: none;
+    box-shadow: none;
+    border-radius: 5px;
+    color: gray;
+}
+
+.background_color_gray1:focus {
+    background-color: rgb(248, 250, 252);
+    border: 1px solid rgb(248, 250, 252);
+    outline: none;
+    box-shadow: none;
+    border-radius: 5px;
+    color: gray;
+}
+
+.background_color_gray1::placeholder {
+    font-size: 80%;
+    color: gray;
+}
+
+#eyeopen {
+    font-size: 80%;
+    color: lightgray;
+}
+
+
+@media screen and (max-width: 980px) {}

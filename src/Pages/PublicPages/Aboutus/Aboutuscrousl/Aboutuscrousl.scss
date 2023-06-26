@@ -1,0 +1,57 @@
+@import "../../../../Assets/Scss/veriables.scss";
+@import "~react-pro-sidebar/dist/scss/styles.scss";
+
+
+
+.background_card
+{
+    background-color: #E4DC91;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.background_card1
+{
+    background-color: white;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.linkedin1
+{
+    width: 6%;
+}
+
+.background_story3
+{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: #C8F5BC;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+}
+
+.btn_style_join
+{
+    background-color: #34306C;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.btn_style_join:hover
+{
+    background-color: #34306C;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.icon_color_about
+{
+    color: #A3FF8A;
+}

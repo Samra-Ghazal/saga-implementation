@@ -1,0 +1,33 @@
+
+.padding-top-tc
+{
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.background_tc
+{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.button-outline-tc
+{
+    border: 1px solid gray;
+}
+
+.giff_width
+{
+    width: 70%;
+}
+
+@media screen and (max-width: 480px) {
+   .padding-top-tc
+   {
+     padding-top: 20%;
+     padding-bottom: 10%;
+   }
+ 
+   }
